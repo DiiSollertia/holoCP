@@ -11,7 +11,7 @@ r = praw.Reddit(username = "holoCP",
                 user_agent = "holoCP by /u/holoCP")
 
 #responds to mentions
-subr = r.subreddit('sollertiadev') # this chooses a subreddit you want to get comments from
+subr = r.subreddit('testingground4bots') # this chooses a subreddit you want to get comments from
 for comment in subr.stream.comments(skip_existing=True): # this iterates through the comments from that subreddit as new ones are coming in
   try:
     if "!fbkglasses" in comment.body:
