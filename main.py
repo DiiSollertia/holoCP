@@ -1,13 +1,13 @@
 import praw
 from dotenv import load_dotenv
 import os
-load_dotenv()  # loads the configs from .env
+#load_dotenv()  # loads the configs from .env
 
 #setup
 r = praw.Reddit(username = "holoCP",
-                password = str(os.getenv('REDDIT_PW')),
-                client_id = str(os.getenv('REDDIT_ID')),
-                client_secret = str(os.getenv('REDDIT_SECRET')),
+                password = os.environ['REDDIT_PW'],
+                client_id = os.environ['REDDIT_ID'],
+                client_secret = os.environ['REDDIT_SECRET'],
                 user_agent = "holoCP by /u/holoCP")
 
 #responds to mentions
