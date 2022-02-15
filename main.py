@@ -13,18 +13,18 @@ r = praw.Reddit(username = "holoCP",
                 client_id = os.environ['REDDIT_ID'],
                 client_secret = os.environ['REDDIT_SECRET'],
                 user_agent = "Windows-10:holoCP:v1 (by /u/holoCP)",
-                ratelimit_seconds = 600,
+                ratelimit_seconds = 300,
                 )
 
 print('setup done')
 
-footer = "  \n\n  "+"---  "+"\n\n_I am a copypasta bot. Documentation in profile description_"
+footer = "\n\n"+"---"+"\n\n_I am a copypasta bot. [Documentation here](https://github.com/DiiSollertia/holoCP#readme)_"
 
 #responds to mentions
 subr = r.subreddit('testingground4bots') # this chooses a subreddit you want to get comments from
 for comment in subr.stream.comments(skip_existing=True): # this iterates through the comments from that subreddit as new ones are coming in
     try:
-        print('go')
+        print('iterate')
         if "!fbkglasses" in comment.body:
             comment.reply('''[Glasses are really versatile. First, you can have glasses-wearing girls take them off and suddenly become beautiful, or have girls wearing glasses flashing those cute grins, or have girls stealing the protagonist's glasses and putting them on like, "Haha, got your glasses!" That's just way too cute! Also, boys with glasses! I really like when their glasses have that suspicious looking gleam, and it's amazing how it can look really cool or just be a joke. I really like how it can fulfill all those abstract needs. Being able to switch up the styles and colors of glasses based on your mood is a lot of fun too! It's actually so much fun! You have those half rim glasses, or the thick frame glasses, everything! It's like you're enjoying all these kinds of glasses at a buffet. I really want Luna to try some on or Marine to try some on to replace her eyepatch. We really need glasses to become a thing in hololive and start selling them for HoloComi. Don't. You. Think. We. Really. Need. To. Officially. Give. Everyone. Glasses?](https://youtu.be/DTVAjI_ELyA?t=2515)'''+footer)
         if "!pekolaugh" in comment.body:

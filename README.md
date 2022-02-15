@@ -42,10 +42,10 @@ Reddit bot for hololive-related copypastas
 >Nene超進化! Super Hyper Ultra Ultimate Deluxe Perfect Amazing Shining God 流派東方不敗 Master Freedom Justice Ginga Victory 
 >Prime Strong Cute Beautiful Wonderful Champion Galaxy Baby 最高 勇者王 天元突破 無限 無敵 無双 NENEMAXMAXMAXSTORONG NENECHI!
 
-# Contact 
+## Contact 
 To contact me or submit suggestions, please submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).
 
-# Support 
+## Support 
 To support me and/or this project, feel free to contribute using the following platforms. If you wish for 100% of your contribution to go towards this specific project (hosting fees and such), please do specify so in the _message_ sections available.
 - [Ko-fi](https://ko-fi.com/sollertia)
 - [Stream Elements](https://streamelements.com/sollertia_/tip)
