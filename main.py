@@ -2,8 +2,8 @@ import praw
 import prawcore.exceptions
 import os
 
-#from dotenv import load_dotenv
-#load_dotenv()  # loads the configs from .env for local dev
+from dotenv import load_dotenv
+load_dotenv()  # loads the configs from .env for local dev
 
 print('import done')
 
@@ -34,8 +34,7 @@ for comment in subr.stream.comments(skip_existing=True): # this iterates through
         if "!supernenechi" in comment.body:
             comment.reply('''Nene超進化! Super Hyper Ultra Ultimate Deluxe Perfect Amazing Shining God 流派東方不敗 Master Freedom Justice Ginga Victory Prime Strong Cute Beautiful Wonderful Champion Galaxy Baby 最高 勇者王 天元突破 無限 無敵 無双 NENEMAXMAXMAXSTORONG NENECHI!''')
         if "!phoenix" in comment.body:
-            comment.reply(
-                '''# To those coming from r/all: <br /> Hello! Welcome to the official subreddit for hololive production (wikipedia), a talent agency based out of Tokyo, Japan that manages Virtual YouTubers - think of streamers on Twitch and YouTube, but with virtual avatars instead of a facecam. Most of the talents in Hololive are Japanese, but there are also Indonesian and English branches too! The talents do all sorts of stuff, including but not limited to: gaming streams, karaoke streams, drawing streams and talking streams. Some of the content the talents offer is family friendly, others a bit more risque. The sidebar has links to each talent's Youtube and Twitter accounts.''')
+            comment.reply('''# To those coming from r/all:  '''+'''\n\nHello! Welcome to the official subreddit for hololive production (wikipedia), a talent agency based out of Tokyo, Japan that manages Virtual YouTubers - think of streamers on Twitch and YouTube, but with virtual avatars instead of a facecam. Most of the talents in Hololive are Japanese, but there are also Indonesian and English branches too! The talents do all sorts of stuff, including but not limited to: gaming streams, karaoke streams, drawing streams and talking streams. Some of the content the talents offer is family friendly, others a bit more risque. The sidebar has links to each talent's Youtube and Twitter accounts.''')
     except praw.exceptions.RedditAPIException:
         print("API Exception: Probably rate limit")
     except prawcore.exceptions.ResponseException:
