@@ -11,7 +11,7 @@ r = praw.Reddit(username = "holoCP",
                 password = os.environ['REDDIT_PW'],
                 client_id = os.environ['REDDIT_ID'],
                 client_secret = os.environ['REDDIT_SECRET'],
-                user_agent = "holoCP by /u/holoCP")
+                user_agent = "reddit:holoCP:v16 (by /u/holoCP)")
 
 print('setup done')
 
@@ -33,7 +33,7 @@ for comment in subr.stream.comments(skip_existing=True): # this iterates through
         if "!phoenix" in comment.body:
             comment.reply('''<h2>To those coming from r/all:</h2>
 Hello! Welcome to the official subreddit for hololive production (wikipedia), a talent agency based out of Tokyo, Japan that manages Virtual YouTubers - think of streamers on Twitch and YouTube, but with virtual avatars instead of a facecam. Most of the talents in Hololive are Japanese, but there are also Indonesian and English branches too! The talents do all sorts of stuff, including but not limited to: gaming streams, karaoke streams, drawing streams and talking streams. Some of the content the talents offer is family friendly, others a bit more risque. The sidebar has links to each talent's Youtube and Twitter accounts.''')
-        except praw.exceptions.APIException: # Reddit may have rate limits, this prevents your bot from dying due to rate limits
-            print("API Exception: Probably rate limit")
-        except praw.exceptions.ResponseException:
-            print("Response Exception: Probably HTTP 401 Authentication Error")
+    except praw.exceptions.APIException:
+        print("API Exception: Probably rate limit")
+    except praw.exceptions.ResponseException:
+        print("Response Exception: Probably HTTP 401 Authentication Error")
