@@ -12,7 +12,9 @@ r = praw.Reddit(username = "holoCP",
                 password = os.environ['REDDIT_PW'],
                 client_id = os.environ['REDDIT_ID'],
                 client_secret = os.environ['REDDIT_SECRET'],
-                user_agent = "heroku:holoCP:v1 (by /u/holoCP)")
+                user_agent = "Windows-10:holoCP:v1 (by /u/holoCP)",
+                ratelimit_seconds = 600,
+                )
 
 print('setup done')
 
