@@ -1,4 +1,4 @@
-# holoCP
+# holoquote_bot
 Reddit bot for hololive-related copypastas
 
 ## Current Configuration
