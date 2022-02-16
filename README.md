@@ -23,6 +23,7 @@ As a fellow community member, I have realized that there are a couple of bots th
 - `!pekolaugh`
 - `!supernenechi`
 - `!faq`
+- `!hey`
 
 Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/holoquote-bot#readme).
 
