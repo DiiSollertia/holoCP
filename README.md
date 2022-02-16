@@ -7,13 +7,13 @@ As a fellow community member, I have realized that there are a couple of bots th
 # Main Script
 ## Current Configuration
 
-| Parameters          | Values               |
-|---------------------|----------------------|
-| Language            | Python               |
-| Hosting Platform    | Heroku               |
-| Subreddit Whitelist | r/testingground4bots |
-| Max Ratelimit       | 300 seconds          |
-| Dynohours           | 1000 hours/month     |
+| Parameters          | Values                       |
+|---------------------|------------------------------|
+| Language            | Python                       |
+| Hosting Platform    | Heroku                       |
+| Subreddit Whitelist | r/testingground4bots, r/test |
+| Max Ratelimit       | 300 seconds                  |
+| Dynohours           | 1000 hours/month             |
 
 ## Available Commands
 - `!phoenix`
