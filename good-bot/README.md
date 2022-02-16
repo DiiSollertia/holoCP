@@ -1,5 +1,5 @@
 # holoquote_bot Good bot
-Reacts to replies containing "Goood bot" or "Bad bot"
+Reacts to replies containing "Good bot" or "Bad bot"
 
 ## Current Configuration
 
