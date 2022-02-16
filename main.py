@@ -38,9 +38,9 @@ for comment in subr.stream.comments(skip_existing=True): # this iterates through
         if "!phoenix" in comment.body:
             comment.reply('''# To those coming from r/all:  '''+'''\n\nHello! Welcome to the official subreddit for hololive production (wikipedia), a talent agency based out of Tokyo, Japan that manages Virtual YouTubers - think of streamers on Twitch and YouTube, but with virtual avatars instead of a facecam. Most of the talents in Hololive are Japanese, but there are also Indonesian and English branches too! The talents do all sorts of stuff, including but not limited to: gaming streams, karaoke streams, drawing streams and talking streams. Some of the content the talents offer is family friendly, others a bit more risque. The sidebar has links to each talent's Youtube and Twitter accounts.'''+footer)
         if "!faq" in comment.body:
-            comment.reply('''[FAQ IS LOVE!](https://youtu.be/T142Djb4Jbw?t=5982)''')
+            comment.reply('''[FAQ IS LOVE!](https://youtu.be/T142Djb4Jbw?t=5982)'''+footer)
         if "!hey" in comment.body:
-            comment.reply('''[hey!  \n\n moona come on!!!!](https://youtu.be/aD_niqW7BPM?t=2104)''')
+            comment.reply('''[hey!  \n\n moona come on!!!!](https://youtu.be/aD_niqW7BPM?t=2104)'''+footer)
     except praw.exceptions.RedditAPIException:
         print("API Exception: Probably rate limit")
     except prawcore.exceptions.ResponseException:
