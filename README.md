@@ -3,13 +3,13 @@ Reddit bot for hololive-related copypastas
 
 ## Current Configuration
 
-| Parameters          | Values               |
-|---------------------|----------------------|
-| Language            | Python               |
-| Hosting Platform    | Heroku               |
-| Subreddit Whitelist | r/testingground4bots |
-| Max Ratelimit       | 300 seconds          |
-| Dynohours           | 1000 hours/month     |
+| Parameters          | Values                       |
+|---------------------|------------------------------|
+| Language            | Python                       |
+| Hosting Platform    | Heroku                       |
+| Subreddit Whitelist | r/testingground4bots, r/test |
+| Max Ratelimit       | 300 seconds                  |
+| Dynohours           | 1000 hours/month             |
 
 ## Available Commands
 - `!phoenix`
