@@ -24,7 +24,7 @@ As a fellow community member, I have realized that there are a couple of bots th
 - `!supernenechi`
 - `!faq`
 
-Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/holoquote-bot#readme).
+Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/main-script#readme).
 
 # Contact 
 To contact me or submit suggestions, please report and issue via Github if you're comfortable with it or submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).
