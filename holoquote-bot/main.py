@@ -18,7 +18,7 @@ r = praw.Reddit(username = "holoquote_bot",
 
 print('setup done')
 
-footer = "\n\n"+"---"+"\n\n_I am a copypasta bot. [Documentation here](https://github.com/DiiSollertia/holoquote_bot/tree/main#readme)_"
+footer = "\n\n"+"---"+"\n\n_I am a copypasta bot. [Documentation here](https://github.com/DiiSollertia/holoquote_bot#readme)_"
 
 #responds to mentions
 subr = r.subreddit('testingground4bots') # this chooses a subreddit you want to get comments from
