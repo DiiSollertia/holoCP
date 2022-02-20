@@ -1,17 +1,7 @@
 # holoquote_bot Main Script
 Reddit bot for hololive-related copypastas
 
-## Current Configuration
-
-| Parameters          | Values                       |
-|---------------------|------------------------------|
-| Language            | Python                       |
-| Hosting Platform    | Heroku                       |
-| Subreddit Whitelist | r/testingground4bots, r/test |
-| Max Ratelimit       | 300 seconds                  |
-| Dynohours           | 1000 hours/month             |
-
-## Available Commands
+# Available Commands
 - `!phoenix`
 >To those coming from r/all:  
 >Hello! Welcome to the official subreddit for hololive production (wikipedia), a talent agency based out of Tokyo, Japan 
@@ -49,5 +39,5 @@ Reddit bot for hololive-related copypastas
 >hey! 
 >moona come one!!!
 
-## Contact 
+# Contact 
 To contact me or submit suggestions, please report and issue via Github if you're comfortable with it or submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).

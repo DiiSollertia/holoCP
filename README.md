@@ -4,16 +4,26 @@ Reddit bot for hololive-related copypastas
 # Background
 As a fellow community member, I have realized that there are a couple of bots that modified messages (_think peko or nanora_) or posted copypastas based on keywords in posts (_like the fubuki glasses bot_). However, I wanted to create something that could be summoned on demand (_via commands_) and had an extensive list of responses instead of a specific one, which led me to write this script.
 
-# Main Script
-## Current Configuration
+# Current Configuration
 
 | Parameters          | Values                       |
 |---------------------|------------------------------|
 | Language            | Python                       |
 | Hosting Platform    | Heroku                       |
-| Subreddit Whitelist | r/testingground4bots, r/test |
 | Max Ratelimit       | 300 seconds                  |
 | Dynohours           | 1000 hours/month             |
+
+## Subreddit Whitelist
+- r/testingground4bots
+- r/test
+_This list can be expanded, but I prefer to message mods for approval first to avoid stepping on toes. [Contact me](#Contact) to suggest more subreddits that this bot would be useful in._
+
+## Subreddit Blacklist
+| Subreddit  | Reason                                                       |
+|------------|--------------------------------------------------------------|
+| r/Hololewd | Permabanned during approval request, no reason given to date |
+
+# Main Script
 
 ## Available Commands
 - `!phoenix`
