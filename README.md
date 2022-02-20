@@ -15,7 +15,7 @@ As a fellow community member, I have realized that there are a couple of bots th
 
 ## Subreddit Whitelist
 - r/testingground4bots
-- r/test
+- r/test  
 _This list can be expanded, but I prefer to message mods for approval first to avoid stepping on toes. [Contact me](#Contact) to suggest more subreddits that this bot would be useful in._
 
 ## Subreddit Blacklist
