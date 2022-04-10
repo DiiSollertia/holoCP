@@ -21,7 +21,7 @@ print('setup done')
 footer = "\n\n"+"---"+"\n\n_I am a copypasta bot. [Documentation here](https://github.com/DiiSollertia/holoquote_bot#readme)_"
 
 #responds to mentions
-subr = r.subreddit('testingground4bots+test') # this chooses a subreddit you want to get comments from
+subr = r.subreddit('testingground4bots+test+hololive') # this chooses a subreddit you want to get comments from
 for comment in subr.stream.comments(skip_existing=True): # this iterates through the comments from that subreddit as new ones are coming in
     try:
         print('iterate')
