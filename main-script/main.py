@@ -41,6 +41,8 @@ for comment in subr.stream.comments(skip_existing=True): # this iterates through
             comment.reply('''[FAQ IS LOVE!](https://youtu.be/T142Djb4Jbw?t=5982)'''+footer)
         if "!hey" in comment.body:
             comment.reply('''[hey!  ](https://youtu.be/aD_niqW7BPM?t=2104)'''+'''\n\n [moona come on!!!!](https://youtu.be/aD_niqW7BPM?t=2104)'''+footer)
+        if "!apex" in comment.body:
+            comment.reply('''[DID SOMEBODY SAY APEX?!](https://youtu.be/VemenskFoBk)'''+footer)
     except praw.exceptions.RedditAPIException:
         print("API Exception: Probably rate limit")
     except prawcore.exceptions.ResponseException:

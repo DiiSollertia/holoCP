@@ -34,6 +34,7 @@ _This list can be expanded, but I prefer to message mods for approval first to a
 - `!supernenechi`
 - `!faq`
 - `!hey`
+- `!apex`
 
 Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/holoquote-bot#readme).
 
