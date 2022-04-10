@@ -39,5 +39,8 @@ Reddit bot for hololive-related copypastas
 >hey! 
 >moona come one!!!
 
+- `apex`
+>DID SOMEBODY SAY APEX?!
+
 # Contact 
 To contact me or submit suggestions, please report and issue via Github if you're comfortable with it or submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).
