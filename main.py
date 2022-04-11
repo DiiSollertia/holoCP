@@ -42,7 +42,7 @@ for comment in subr.stream.comments(skip_existing=True): # this iterates through
         if "!hey" in comment.body:
             comment.reply('''[hey!  ](https://youtu.be/aD_niqW7BPM?t=2104)'''+'''\n\n [moona come on!!!!](https://youtu.be/aD_niqW7BPM?t=2104)'''+footer)
         if "!apex" in comment.body:
-            comment.reply('''[DID SOMEBODY SAY](https://youtu.be/VemenskFoBk)'''+'''\n\n [# APEX?!](https://youtu.be/VemenskFoBk)'''+footer)
+            comment.reply('''[^(DID SOMEBODY SAY)](https://youtu.be/VemenskFoBk)'''+'''\n\n [**APEX?!**](https://youtu.be/VemenskFoBk)'''+footer)
         if "!when" in comment.body:
             comment.reply('''# [TOMORROW!](https://youtu.be/EHpxi7khHb0?t=3005)'''+'''\n\n [*said Ina calmly.*](https://youtu.be/EHpxi7khHb0?t=3005)'''+footer)
     except praw.exceptions.RedditAPIException:
