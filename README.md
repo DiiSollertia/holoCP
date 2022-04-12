@@ -16,7 +16,7 @@ As a fellow community member, I have realized that there are a couple of bots th
 ## Subreddit Whitelist
 - r/testingground4bots
 - r/test  
-- r/hololive
+- r/hololive 
 _This list can be expanded. While I prefer to message mods for approval first to avoid stepping on toes, it seems like I'm not getting any productive responses. [Contact me](#Contact) to suggest more subreddits that this bot would be useful in._
 
 ## Subreddit Blacklist
