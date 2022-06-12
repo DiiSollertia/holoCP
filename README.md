@@ -37,6 +37,7 @@ _This list can be expanded. While I prefer to message mods for approval first to
 - `!hey`
 - `!apex`
 - `!when`
+- `!piratebooty`
 
 Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/holoquote-bot#readme).
 

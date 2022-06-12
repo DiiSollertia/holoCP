@@ -47,5 +47,9 @@ Reddit bot for hololive-related copypastas
 >TOMORROW!
 >said Ina calmly.
 
+- `!piratebooty`
+>"I don't think you would understand this. But my butt is really big, it's like "What happened to this?" To explain just how big it is. If I were to take a fall that would break a normal person's bones my butt will absorb all the damage. My bones would be completely fine. It will only end with a single bruise. My butt is the absolute strongest. It's very sturdy, the muscle is so thick. To explain just how thick it is... In my head, I think of myself as having a hitbox and I walk based on that. But while I walk, my butt sways left and right. It's not like it's swaying because I'm trying to shake it. It's just so big it moves on its own and it just becomes a shaky mess. I don't intend to shake it, I don't mean to walk like a penguin. But it's just so big my body is taken along for the ride. And my body is shaken around by my butt. So, then my hitbox gets misaligned so I start banging into things. Like I think I can get through here, but my butt goes BOOM! And you might think it hurts and that's that but my butt is so much like a cushion but it bounces and sends me flying. I think ...it's like that, it's just that bouncy it has its own hitbox. Then there's what happens in bed. You might not understand because you're boys, but when a woman with a butt as big as mine goes to bed, when I lay down my butt is so big my hips start floating. Understand???"
+>- Houshou Marine, 2021
+
 # Contact 
 To contact me or submit suggestions, please report and issue via Github if you're comfortable with it or submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).
