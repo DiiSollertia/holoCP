@@ -39,7 +39,7 @@ _This list can be expanded. While I prefer to message mods for approval first to
 - `!when`
 - `!piratebooty`
 
-Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/tree/main/holoquote-bot#readme).
+Detailed command descriptions [here](https://github.com/DiiSollertia/holoquote_bot/blob/main/main-script/README.md).
 
 # Contact 
 To contact me or submit suggestions, please report and issue via Github if you're comfortable with it or submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdQU66HN6aAVZjk7LNFqz8F0duhE_-wHRTVtN6wziMX9Aov5Q/viewform?usp=sf_link).
